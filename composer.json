@@ -1,0 +1,29 @@
+{
+    "name": "watcher/watcher-monolog",
+    "description": "Monolog implement using watcher library.",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "MilesChou",
+            "email": "jangconan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5 | >=7.0",
+        "watcher/watcher": "^0.1",
+        "symfony/console": "^3.2"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Watcher\\": "src"
+        }
+    },
+    "scripts": {
+        "test": [
+            "php vendor/bin/phpcs"
+        ]
+    }
+}
