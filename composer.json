@@ -1,6 +1,6 @@
 {
-    "name": "watcher/watcher-monolog",
-    "description": "Monolog implement using watcher library.",
+    "name": "watcher/watcher-command",
+    "description": "Command implement using watcher library.",
     "license": "MIT License",
     "authors": [
         {
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Watcher\\": "src"
+            "Watcher\\Command\\": "src"
         }
     },
     "scripts": {
